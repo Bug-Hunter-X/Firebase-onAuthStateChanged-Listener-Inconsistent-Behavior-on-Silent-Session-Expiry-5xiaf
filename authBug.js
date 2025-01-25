@@ -1,0 +1,1 @@
+The Firebase SDK's `onAuthStateChanged` listener might not trigger if the user's session expires silently due to inactivity or token refresh failures. This can lead to unexpected behavior in your app, as components relying on the authentication state might not update correctly.
